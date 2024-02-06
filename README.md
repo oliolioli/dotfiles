@@ -1,5 +1,4 @@
-# Dotfiles
-Sharing dotfiles is caring dotfiles 💕
+# Dotfiles #
 
 ## i3 ##
 

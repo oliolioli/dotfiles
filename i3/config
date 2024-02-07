@@ -235,7 +235,7 @@ bar {
 exec --no-startup-id nm-applet
 
 # Wallpaper
-exec feh --bg-scale /home/oli/Documents/wallpaper/bg.jpg 
+exec feh --bg-scale /home/foo/Documents/wallpaper/bg.jpg 
 
 bindsym XF86AudioRaiseVolume exec "amixer -q sset Master,0 10%+ unmute"
 bindsym XF86AudioLowerVolume exec "amixer -q sset Master,0 10%- unmute"

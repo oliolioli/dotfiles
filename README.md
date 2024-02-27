@@ -11,6 +11,12 @@ All in decent blue. Showing **ddate**, power consumption, WiFi SSID, connection 
 ![i3](https://github.com/oliolioli/dotfiles/assets/4264535/a69f9946-4f86-495c-859a-40dc431142bf)
 
 
+
+## vim ##
+
+Using https://github.com/morhetz/gruvbox/blob/master/colors/gruvbox.vim
+
+
 ## Appendix ##
 
 Interesting read about dotfiles: https://jogendra.dev/i-do-dotfiles .

@@ -30,7 +30,8 @@ font pango:DejaVu Sans Mono 9
 floating_modifier $mod
 
 # start a terminal
-# bindsym $mod+Return exec i3-sensible-terminal --hide-menubar
+#bindsym $mod+Return exec i3-sensible-terminal --hide-menubar
+
 bindsym $mod+Return exec qterminal
 
 # kill focused window
@@ -140,7 +141,7 @@ bindsym $mod+Ctrl+Shift+l exec --no-startup-id $i3lockwall
 
 
 # add applications to specific worksspaces
-exec --no-startup-id i3-msg 'workspace 1; exec /usr/bin/chromium-browser'
+exec --no-startup-id i3-msg 'workspace 1; exec /usr/bin/chromium'
 
 
 # reload the configuration file
@@ -234,8 +235,11 @@ bar {
 # Start NetworkManager-Applet
 exec --no-startup-id nm-applet
 
+# Start Blueman-Applet (for nice sound)
+exec blueman-applet
+
 # Wallpaper
-exec feh --bg-scale /home/foo/wallpaper/bg.jpg 
+exec feh --bg-scale /home/oli/Documents/wallpaper/bg.jpg 
 
 bindsym XF86AudioRaiseVolume exec "amixer -q sset Master,0 10%+ unmute"
 bindsym XF86AudioLowerVolume exec "amixer -q sset Master,0 10%- unmute"
